@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -432,7 +430,6 @@ ScriptedImporter:
     cells:
     - name: Skeleton Dead_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 0
@@ -441,7 +438,6 @@ ScriptedImporter:
       spriteId: d29b9c1cd32ebf842affcced79056e96
     - name: Skeleton Dead_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -450,7 +446,6 @@ ScriptedImporter:
       spriteId: 9b54984a62153d742ab05f45d766ee36
     - name: Skeleton Dead_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -459,7 +454,6 @@ ScriptedImporter:
       spriteId: 83822346b512b5c4299fb28db9acf688
     - name: Skeleton Dead_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -468,7 +462,6 @@ ScriptedImporter:
       spriteId: aa055b12a63faa940891a080f122d2dc
     - name: Skeleton Dead_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -477,7 +470,6 @@ ScriptedImporter:
       spriteId: 81c0e21706f821f469800d6036e2b841
     - name: Skeleton Dead_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -486,7 +478,6 @@ ScriptedImporter:
       spriteId: 72214ea32fb791946b41772b467d5ae4
     - name: Skeleton Dead_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -495,7 +486,6 @@ ScriptedImporter:
       spriteId: 66cb089706178ed48887eab0e6c29f7c
     - name: Skeleton Dead_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -504,7 +494,6 @@ ScriptedImporter:
       spriteId: a163694f92f80124ea091c18f25e31ce
     - name: Skeleton Dead_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -513,7 +502,6 @@ ScriptedImporter:
       spriteId: d5f8c48f3897cfa4c956490624c1ccee
     - name: Skeleton Dead_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -522,7 +510,6 @@ ScriptedImporter:
       spriteId: e96cb7fffa099a04792684019a2d5fb1
     - name: Skeleton Dead_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -531,7 +518,6 @@ ScriptedImporter:
       spriteId: 2c5182bd4aee84a418429aec3ab28316
     - name: Skeleton Dead_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -540,7 +526,6 @@ ScriptedImporter:
       spriteId: 9ceb8f37a42ecbf4c8ee515a2d9cf709
     - name: Skeleton Dead_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -549,7 +534,6 @@ ScriptedImporter:
       spriteId: bcd7e598413e20b4b9a8f4e0ed408545
     - name: Skeleton Dead_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -558,7 +542,6 @@ ScriptedImporter:
       spriteId: 34694bd1cdc1d054abffaa5a5f651a86
     - name: Skeleton Dead_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -568,7 +551,6 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 33, y: 32}

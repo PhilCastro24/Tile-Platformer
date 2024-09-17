@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -292,7 +290,6 @@ ScriptedImporter:
     cells:
     - name: Skeleton Hit_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -301,7 +298,6 @@ ScriptedImporter:
       spriteId: e2590a3d7fdf6bb4199d2aad3559e739
     - name: Skeleton Hit_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -310,7 +306,6 @@ ScriptedImporter:
       spriteId: c6a11fd8bcd15e549a6d6d53e2f482d9
     - name: Skeleton Hit_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -319,7 +314,6 @@ ScriptedImporter:
       spriteId: e213b8a55d90a4342966ea40160416c0
     - name: Skeleton Hit_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -328,7 +322,6 @@ ScriptedImporter:
       spriteId: 469f4a5a65c28b24896cc4cb747146ac
     - name: Skeleton Hit_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -337,7 +330,6 @@ ScriptedImporter:
       spriteId: 6ab8b5d762dac9e4ba09600dfb68c9af
     - name: Skeleton Hit_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -346,7 +338,6 @@ ScriptedImporter:
       spriteId: 13620f0b0459d71418616a791473e667
     - name: Skeleton Hit_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -355,7 +346,6 @@ ScriptedImporter:
       spriteId: 3818e687ee0765343a598062dbe48fe6
     - name: Skeleton Hit_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -365,7 +355,6 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 30, y: 32}
