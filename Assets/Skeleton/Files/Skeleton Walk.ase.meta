@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -392,7 +390,6 @@ ScriptedImporter:
     cells:
     - name: Skeleton Walk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -401,7 +398,6 @@ ScriptedImporter:
       spriteId: 732409c3c53d7934182629171f77421e
     - name: Skeleton Walk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -410,7 +406,6 @@ ScriptedImporter:
       spriteId: 281b2fa8c005e7d49a56fdddbcb0c896
     - name: Skeleton Walk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -419,7 +414,6 @@ ScriptedImporter:
       spriteId: a5fcd83dff87a8246858b65dd135af9a
     - name: Skeleton Walk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -428,7 +422,6 @@ ScriptedImporter:
       spriteId: d1ed1f3a032cdb9458ca32ea2ddc8537
     - name: Skeleton Walk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -437,7 +430,6 @@ ScriptedImporter:
       spriteId: 0dabd835e5e08094da64e6d876217782
     - name: Skeleton Walk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -446,7 +438,6 @@ ScriptedImporter:
       spriteId: 892171d91b9912b49b257dbdaad02cb6
     - name: Skeleton Walk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -455,7 +446,6 @@ ScriptedImporter:
       spriteId: a8dc1dd88567c714db18b5537fac6099
     - name: Skeleton Walk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -464,7 +454,6 @@ ScriptedImporter:
       spriteId: af1d8f52c5ee013459ff630fcedce305
     - name: Skeleton Walk_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -473,7 +462,6 @@ ScriptedImporter:
       spriteId: 35fde69996e8f70459ae461e18ecba34
     - name: Skeleton Walk_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -482,7 +470,6 @@ ScriptedImporter:
       spriteId: 5db2ac59bd9344f4fb051ed6bc701611
     - name: Skeleton Walk_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -491,7 +478,6 @@ ScriptedImporter:
       spriteId: 92b5a934eb655de40a339659423b6fb0
     - name: Skeleton Walk_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -500,7 +486,6 @@ ScriptedImporter:
       spriteId: ac7e7c2f38c3fe24a9700fc4b8f2bb0a
     - name: Skeleton Walk_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -510,7 +495,6 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 22, y: 33}

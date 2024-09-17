@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -352,7 +350,6 @@ ScriptedImporter:
     cells:
     - name: Skeleton Idle_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -361,7 +358,6 @@ ScriptedImporter:
       spriteId: 777c64b450fcec440b3710b27ef1cda4
     - name: Skeleton Idle_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -370,7 +366,6 @@ ScriptedImporter:
       spriteId: 6799ba686b27b3245b8a9668d359863c
     - name: Skeleton Idle_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -379,7 +374,6 @@ ScriptedImporter:
       spriteId: 8b00b631cf58e7b4eadabbeb2c98c5e9
     - name: Skeleton Idle_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -388,7 +382,6 @@ ScriptedImporter:
       spriteId: 46ad837abb6e79946bf1bb41914a6741
     - name: Skeleton Idle_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -397,7 +390,6 @@ ScriptedImporter:
       spriteId: c9253c9e9b9dd784e8bc3a663c4886b3
     - name: Skeleton Idle_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -406,7 +398,6 @@ ScriptedImporter:
       spriteId: 87d452aea8dc84d48bd46c435ae23e5c
     - name: Skeleton Idle_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -415,7 +406,6 @@ ScriptedImporter:
       spriteId: 34d08c408571b2e4390c0ecd8bd95fd0
     - name: Skeleton Idle_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -424,7 +414,6 @@ ScriptedImporter:
       spriteId: 570092ef89d9ece4186660ab0df2278d
     - name: Skeleton Idle_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -433,7 +422,6 @@ ScriptedImporter:
       spriteId: 0f7c75d290c52de4ba56f73c3a54c10d
     - name: Skeleton Idle_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -442,7 +430,6 @@ ScriptedImporter:
       spriteId: 4586375731938f14e9d27fd998c2e96d
     - name: Skeleton Idle_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -452,7 +439,6 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 24, y: 32}

@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -492,7 +490,6 @@ ScriptedImporter:
     cells:
     - name: Skeleton Attack_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -501,7 +498,6 @@ ScriptedImporter:
       spriteId: b3bcda5c596c40846bcc6e9c92d86149
     - name: Skeleton Attack_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -510,7 +506,6 @@ ScriptedImporter:
       spriteId: 4eb67d86f7cee1a4089c327051a86a0a
     - name: Skeleton Attack_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -519,7 +514,6 @@ ScriptedImporter:
       spriteId: b4cd850f9a8aa524493b009d1611fb79
     - name: Skeleton Attack_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -528,7 +522,6 @@ ScriptedImporter:
       spriteId: 1db6f778597ce164ea86c492e2354b98
     - name: Skeleton Attack_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -537,7 +530,6 @@ ScriptedImporter:
       spriteId: 84943bba89332174f89e16e6ce1047c1
     - name: Skeleton Attack_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -546,7 +538,6 @@ ScriptedImporter:
       spriteId: c79c839ef867ceb499f61bcf057d28f5
     - name: Skeleton Attack_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -555,7 +546,6 @@ ScriptedImporter:
       spriteId: 12a34c4eddd9f5646a3963407fef5f6b
     - name: Skeleton Attack_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -564,7 +554,6 @@ ScriptedImporter:
       spriteId: 56b512e9f248c8d46b39956bc626fc31
     - name: Skeleton Attack_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 0
@@ -573,7 +562,6 @@ ScriptedImporter:
       spriteId: 146d4b1c30ceda343903089dfd1b087f
     - name: Skeleton Attack_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -582,7 +570,6 @@ ScriptedImporter:
       spriteId: 97bf18b5c2905a343b52484e60008b7e
     - name: Skeleton Attack_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -591,7 +578,6 @@ ScriptedImporter:
       spriteId: 8e8bcddd28c4f464d87c2e0ce26a3ced
     - name: Skeleton Attack_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -600,7 +586,6 @@ ScriptedImporter:
       spriteId: 8f8c242859aadf946acf0af1512fb5b6
     - name: Skeleton Attack_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
@@ -609,7 +594,6 @@ ScriptedImporter:
       spriteId: 3e824159471d5d74da7110ff9bbdbed9
     - name: Skeleton Attack_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -618,7 +602,6 @@ ScriptedImporter:
       spriteId: 258c403fe11285c4f91e6bdff0798202
     - name: Skeleton Attack_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -627,7 +610,6 @@ ScriptedImporter:
       spriteId: a000c03f58c4f7e47a7df71ccd962e46
     - name: Skeleton Attack_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -636,7 +618,6 @@ ScriptedImporter:
       spriteId: 11856d8ae6e8a7d40a9c0c67e7520503
     - name: Skeleton Attack_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -645,7 +626,6 @@ ScriptedImporter:
       spriteId: 21d6b93af7c926248bef4bd8f271cc37
     - name: Skeleton Attack_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -655,7 +635,6 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 43, y: 37}
