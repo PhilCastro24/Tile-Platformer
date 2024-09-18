@@ -12,12 +12,12 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Bouncing
+  - Background
+  - Enemy
+  - Player
+  - Hazards
+  - Exit
   - 
   - 
   - 
@@ -44,9 +44,15 @@ TagManager:
   - name: Background
     uniqueID: 1132845203
     locked: 0
+  - name: Enemy
+    uniqueID: 1089142997
+    locked: 0
   - name: Ground
     uniqueID: 2889529881
     locked: 0
   - name: Player
     uniqueID: 216115143
+    locked: 0
+  - name: Hazards
+    uniqueID: 3585656555
     locked: 0

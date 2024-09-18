@@ -9,12 +9,17 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb2d;
     Animator animator;
 
+    bool isAlive = true;
+
     [SerializeField] float walkSpeed = 10f;
     [SerializeField] float jumpForce = 5f;
+    [SerializeField] Vector2 deathKick = new Vector2(10, 10);
 
     private bool isGrounded;
     private int jumpCount;
-    int maxJumps = 2;
+    int maxJumps = 1;
+
+    BoxCollider2D myBoxCollider2D;
 
     public Transform groundDetector;
     public float groundCheckRadius = 0.2f;
@@ -24,13 +29,16 @@ public class PlayerController : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        myBoxCollider2D = GetComponent<BoxCollider2D>();
         jumpCount = 0;
     }
 
     void Update()
     {
+        if (!isAlive) { return; }
         Walk();
         FlipSprite();
+        Die();
 
         // Check if grounded
         isGrounded = Physics2D.OverlapCircle(groundDetector.position, groundCheckRadius, groundLayer);
@@ -41,6 +49,7 @@ public class PlayerController : MonoBehaviour
 
     void OnMove(InputValue value)
     {
+        if (!isAlive) { return; }
         moveInput = value.Get<Vector2>();
         Debug.Log(moveInput);
     }
@@ -64,6 +73,8 @@ public class PlayerController : MonoBehaviour
 
     void OnJump(InputValue value)
     {
+        if (!isAlive) { return; }
+
         if (value.isPressed)
         {
             // Check if the player is grounded or has jumps left
@@ -80,6 +91,15 @@ public class PlayerController : MonoBehaviour
                 jumpCount++;
                 Debug.Log("Jumped. Jump Count: " + jumpCount);
             }
+        }
+    }
+    void Die()
+    {
+        if (myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy","Hazards")))
+        {
+            isAlive = false;
+            animator.SetTrigger("isAlive");
+            rb2d.velocity = deathKick;
         }
     }
 }
