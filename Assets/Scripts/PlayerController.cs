@@ -89,7 +89,6 @@ public class PlayerController : MonoBehaviour
                 // Set the Y velocity to jumpForce
                 rb2d.velocity = new Vector2(rb2d.velocity.x, jumpForce);
                 jumpCount++;
-                Debug.Log("Jumped. Jump Count: " + jumpCount);
             }
         }
     }
@@ -100,6 +99,7 @@ public class PlayerController : MonoBehaviour
             isAlive = false;
             animator.SetTrigger("isAlive");
             rb2d.velocity = deathKick;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
 }
