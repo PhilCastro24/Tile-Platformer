@@ -17,7 +17,7 @@ TagManager:
   - Enemy
   - Player
   - Hazards
-  - Exit
+  - Interactables
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 2889529881
+    locked: 0
+  - name: Interactables
+    uniqueID: 3600937205
     locked: 0
   - name: Player
     uniqueID: 216115143

@@ -23,12 +23,6 @@ public class GameSession : MonoBehaviour
 
     }
 
-
-    void Update()
-    {
-        
-    }
-
     public void ProcessPlayerDeath()
     {
         if (playerLives > 1)
@@ -40,6 +34,7 @@ public class GameSession : MonoBehaviour
             ResetGameSession();
         }
     }
+
     void DecreaseLives()
     {
         playerLives--;
@@ -47,6 +42,7 @@ public class GameSession : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
+
     void ResetGameSession()
     {
         SceneManager.LoadScene(0);
