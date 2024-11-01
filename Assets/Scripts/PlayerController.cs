@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb2d;
     Animator animator;
 
+
     bool isAlive = true;
 
     [SerializeField] float walkSpeed = 10f;
@@ -100,6 +101,13 @@ public class PlayerController : MonoBehaviour
             animator.SetTrigger("isAlive");
             rb2d.velocity = deathKick;
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Coin"))
+        {
+            Destroy(gameObject);
         }
     }
 }
